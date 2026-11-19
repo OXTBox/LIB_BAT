@@ -1,0 +1,3 @@
+# what the audit scripts write when run from here
+AUDIT/
+*:Zone.Identifier
