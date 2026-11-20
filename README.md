@@ -43,6 +43,7 @@ These point at a folder that may not exist any more; fix the path before using t
 |---|---|
 | `desk_shortcut.sh` | `./desk_shortcut.sh "Tests 19 Nov night" "1 Vector Toss" <wsl path>` - a Windows shortcut in a Desktop folder pointing into WSL (how Claude leaves things to try while the owner is away). |
 | `save_session_log.sh` | `./save_session_log.sh <session id> "title"` - copies a Claude session's transcript into `~/projects/logs` (raw `.jsonl` + plain `.txt` of the words only). |
+| `get_everything.bat` | Windows (double-click): gets every OXTBox project into a `projects` folder next to it; run again to update them all. Needs Git for Windows. |
 | `kill_explorer_exes.bat` | Windows (double-click): closes every explorer.exe and starts one fresh (for when 20-odd stray Explorers pile up). The desktop and taskbar blink while it restarts. |
 
 ## Licence
