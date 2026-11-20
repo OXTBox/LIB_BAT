@@ -36,3 +36,10 @@ folder in the current folder, with `Folder_Paths.txt`, `noExt_Files.txt` and `<e
 | `explore_repo.bat` | opens that folder in Explorer |
 
 These point at a folder that may not exist any more; fix the path before using them.
+
+## Desktop shortcuts and session logs (WSL, 19 Nov 2026)
+
+| Script | Use |
+|---|---|
+| `desk_shortcut.sh` | `./desk_shortcut.sh "Tests 19 Nov night" "1 Vector Toss" <wsl path>` - a Windows shortcut in a Desktop folder pointing into WSL (how Claude leaves things to try while the owner is away). |
+| `save_session_log.sh` | `./save_session_log.sh <session id> "title"` - copies a Claude session's transcript into `~/projects/logs` (raw `.jsonl` + plain `.txt` of the words only). |
