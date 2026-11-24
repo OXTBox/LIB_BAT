@@ -37,6 +37,7 @@ if exist "LIB_MOCAP\.git" (echo update  LIB_MOCAP& git -C "LIB_MOCAP" pull -q --
 if exist "LIB_PORTS\.git" (echo update  LIB_PORTS& git -C "LIB_PORTS" pull -q --ff-only) else (echo get     LIB_PORTS& git clone -q https://github.com/OXTBox/LIB_PORTS.git)
 if exist "LIB_POWERBAR\.git" (echo update  LIB_POWERBAR& git -C "LIB_POWERBAR" pull -q --ff-only) else (echo get     LIB_POWERBAR& git clone -q https://github.com/OXTBox/LIB_POWERBAR.git)
 if exist "LIB_PUBLIC\.git" (echo update  LIB_PUBLIC& git -C "LIB_PUBLIC" pull -q --ff-only) else (echo get     LIB_PUBLIC& git clone -q https://github.com/OXTBox/LIB_PUBLIC.git)
+if exist "LIB_AUDIO\.git" (echo update  LIB_AUDIO& git -C "LIB_AUDIO" pull -q --ff-only) else (echo get     LIB_AUDIO& git clone -q https://github.com/OXTBox/LIB_AUDIO.git)
 if exist "LIB_RAYCAST\.git" (echo update  LIB_RAYCAST& git -C "LIB_RAYCAST" pull -q --ff-only) else (echo get     LIB_RAYCAST& git clone -q https://github.com/OXTBox/LIB_RAYCAST.git)
 if exist "LIB_RAYGUI\.git" (echo update  LIB_RAYGUI& git -C "LIB_RAYGUI" pull -q --ff-only) else (echo get     LIB_RAYGUI& git clone -q https://github.com/OXTBox/LIB_RAYGUI.git)
 if exist "LIB_RTS\.git" (echo update  LIB_RTS& git -C "LIB_RTS" pull -q --ff-only) else (echo get     LIB_RTS& git clone -q https://github.com/OXTBox/LIB_RTS.git)
