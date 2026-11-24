@@ -46,6 +46,12 @@ These point at a folder that may not exist any more; fix the path before using t
 | `get_everything.bat` | Windows (double-click): gets every OXTBox project into a `projects` folder next to it; run again to update them all. Needs Git for Windows. |
 | `kill_explorer_exes.bat` | Windows (double-click): closes every explorer.exe and starts one fresh (for when 20-odd stray Explorers pile up). The desktop and taskbar blink while it restarts. |
 
+## Play tests (23 Nov 2026)
+
+| Script | Use |
+|---|---|
+| `tester_pack.bat` | Windows (double-click), on a play tester's PC: copies the play record (`Documents\My Games\Vibecode3D`: `play_record.txt` + each game's `last.state`) and the in-game notes (`<Data folder>\Games\<Game>\LIB_LLM\tell_*.txt`) into `Desktop\Vibecode3D_PlayPack_<date>_<time>` and a `.zip` of it. Only copies. Back home: `python3 -I LIB_TEST/play_report.py <the pack folder>`. `tester_pack.bat "<folder>"` puts the pack there, no window, no pause. |
+
 ## Licence
 
 MIT (see `LICENSE`), Copyright (c) 2026 xAction.
