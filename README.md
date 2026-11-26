@@ -51,6 +51,7 @@ These point at a folder that may not exist any more; fix the path before using t
 | Script | Use |
 |---|---|
 | `tester_pack.bat` | Windows (double-click), on a play tester's PC: copies the play record (`Documents\My Games\Vibecode3D`: `play_record.txt` + each game's `last.state`) and the in-game notes (`<Data folder>\Games\<Game>\LIB_LLM\tell_*.txt`) into `Desktop\Vibecode3D_PlayPack_<date>_<time>` and a `.zip` of it. Only copies. Back home: `python3 -I LIB_TEST/play_report.py <the pack folder>`. `tester_pack.bat "<folder>"` puts the pack there, no window, no pause. |
+| `play_python_export.bat` | Windows (double-click): plays a Vibecode3D game exported as a Python program (`xtalk_py/tools/export_py.py GAME` writes `xtalk_py/exports/GAME`); `play_python_export.bat Antack` plays another export (default uDead_CullTest). Its log: `exports/GAME/play.log`. |
 
 ## Licence
 
