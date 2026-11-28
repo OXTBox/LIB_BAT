@@ -42,6 +42,8 @@ if exist "LIB_RAYCAST\.git" (echo update  LIB_RAYCAST& git -C "LIB_RAYCAST" pull
 if exist "LIB_RAYGUI\.git" (echo update  LIB_RAYGUI& git -C "LIB_RAYGUI" pull -q --ff-only) else (echo get     LIB_RAYGUI& git clone -q https://github.com/OXTBox/LIB_RAYGUI.git)
 if exist "LIB_RTS\.git" (echo update  LIB_RTS& git -C "LIB_RTS" pull -q --ff-only) else (echo get     LIB_RTS& git clone -q https://github.com/OXTBox/LIB_RTS.git)
 if exist "LIB_SCRIPTBLOCKS\.git" (echo update  LIB_SCRIPTBLOCKS& git -C "LIB_SCRIPTBLOCKS" pull -q --ff-only) else (echo get     LIB_SCRIPTBLOCKS& git clone -q https://github.com/OXTBox/LIB_SCRIPTBLOCKS.git)
+if exist "LIB_SCREENS\.git" (echo update  LIB_SCREENS& git -C "LIB_SCREENS" pull -q --ff-only) else (echo get     LIB_SCREENS& git clone -q https://github.com/OXTBox/LIB_SCREENS.git)
+if exist "LIB_SHADERS\.git" (echo update  LIB_SHADERS& git -C "LIB_SHADERS" pull -q --ff-only) else (echo get     LIB_SHADERS& git clone -q https://github.com/OXTBox/LIB_SHADERS.git)
 if exist "LIB_SFX\.git" (echo update  LIB_SFX& git -C "LIB_SFX" pull -q --ff-only) else (echo get     LIB_SFX& git clone -q https://github.com/OXTBox/LIB_SFX.git)
 if exist "LIB_SPARK\.git" (echo update  LIB_SPARK& git -C "LIB_SPARK" pull -q --ff-only) else (echo get     LIB_SPARK& git clone -q https://github.com/OXTBox/LIB_SPARK.git)
 if exist "LIB_SYSTEM\.git" (echo update  LIB_SYSTEM& git -C "LIB_SYSTEM" pull -q --ff-only) else (echo get     LIB_SYSTEM& git clone -q https://github.com/OXTBox/LIB_SYSTEM.git)
